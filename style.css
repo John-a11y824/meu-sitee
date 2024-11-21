@@ -558,3 +558,35 @@ body {
   border-radius: 100px;
   box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.3);
 }
+
+#fotl-nossas-viagens {
+  max-width: 3000px;
+  max-height: 3000px;
+  border-radius: 1px;
+  box-shadow: 1px 6px 8px rgba(185, 7, 7, 0.3);
+  width: 13%;
+  object-fit: cover;
+  height: 222px; 
+  
+  
+  /* Rotação inicial e suavização */
+  transform: rotate(270deg); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#fotl-nossas-viagens:hover {
+  /* Mantém a rotação e adiciona efeito no hover */
+  transform: rotate(270deg) scale(1.1); /* Mantém a rotação e adiciona zoom */
+  box-shadow: 1px 8px 12px rgba(185, 7, 7, 0.5); /* Aumenta a intensidade da sombra */
+}
+
+
+#fotz-nossas-viagens {
+  max-width: 3000px;
+  max-height: 3000px;
+  border-radius: 10px;
+  box-shadow: 1px 6px 8px rgba(185, 7, 7, 0.3);
+  width: 10%;
+}
+
+
